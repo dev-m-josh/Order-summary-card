@@ -1,0 +1,116 @@
+@import url("https://fonts.google.com/specimen/Red+Hat+Display");
+
+*{
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    max-width: 1240px;
+    height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+/*************************************/
+
+.container{
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    border-radius: 20px;
+}
+
+.container>img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.container>h2{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+/************************************/
+
+.par{
+    width: 70%;
+    text-align: center;
+}
+
+/**************************************/
+
+.music{
+    width: 80%;
+    background-color:hsl(223, 26%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.plan{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.plan>img{
+    height: 40px;
+    width: 40px;
+    align-self: center;
+}
+
+.annual>h4{
+    margin-bottom: 0;
+    color: hsl(223, 47%, 23%);
+}
+.annual>p{
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+/************************************/
+
+button:hover{
+    background-color:  hsl(224, 23%, 55%);
+    cursor: pointer;
+    transition: .3s;
+}
+
+button{
+    width: 80%;
+    background-color:  hsl(245, 75%, 52%);
+    border: 0;
+    color: hsl(225, 100%, 98%);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+/****************************************/
+
+.container>a:hover{
+    color: hsl(223, 47%, 23%);
+    transition: .5s;
+}
+
+
+.container>a{
+    text-decoration: none;
+    color:  hsl(224, 23%, 55%);
+    font-size: 12px;
+    font-weight: 700;
+    padding: 30px 0 40px 0;
+}
